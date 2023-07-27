@@ -13,6 +13,6 @@ The website consists of the home page and three pages with dessert recipes.
 ### Skilles learned:
 - Solidified html tags knowledge
 - Learned to use command line better
-- Understanding the difference between absolute and relative paths
-- Organizing code
-- Making descriptive commit messages
+- Understood the difference between absolute and relative paths
+- Learned to organize code better
+- Learned to make descriptive commit messages with https://www.conventionalcommits.org
