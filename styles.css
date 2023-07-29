@@ -4,23 +4,35 @@
 }
 .index {
     background-image: url("https://img.freepik.com/free-photo/strawberry-pie-with-anise-flavour-piece-burlap_114579-28888.jpg?w=900&t=st=1690617927~exp=1690618527~hmac=7aa7f5ed5c5de98b82b32a4cff51136ea31a8be1752754181beaef91e11bf1b3");
+    
+}
+.tiramisu{
+    background-image: url("https://static01.nyt.com/images/2017/04/05/dining/05COOKING-TIRAMISU1/05COOKING-TIRAMISU1-blog480.jpg?w=1024&q=75");
+}
+.brownies{
+    background-image: url("https://www.allrecipes.com/thmb/Ra8Y-yiDUNdWW2U5CzAgtT5b_90=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7255512-Guinness-brownies-ddmfs-Beauty-3x4-7886d2e9e6844d8b8b24fdde605ca11f.jpg");
+}
+.cupcakes{
+    background-image: url("https://www.allrecipes.com/thmb/bAcMKLoYBrO3azYvQwKc3_Bxy0I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/157877-vanilla-cupcakes-ddmfs-4X3-0397-59653731be1d4769969698e427d7f5bc.jpg");
+}
+body {
+    margin: unset;
+    text-align:center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
 }
 
-body {
-    margin: unset;
-    text-align:center;
-    
-}
-
 /* text */
 h1 {
     color: rgb(240, 85, 29);
 }
-h1, .links a:hover {
+.res{
+    color:white;
+    background-color: rgba(35, 35, 35, 0.295);
+}
+h1, .links a:hover{
     box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.256);
 }
 
@@ -33,7 +45,8 @@ h1 ,.links a{
 
 /* images */
 img {
-    border: 5px dashed rgba(255, 89, 0, 0.478);
+    margin-top: 30px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.56);
 }
 
 /* links */
