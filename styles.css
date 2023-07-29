@@ -15,3 +15,10 @@ h1 {
     color: rgb(240, 85, 29);
     padding: 10px 0px;
 }
+
+.image {
+    text-align: center; 
+}
+img {
+    border: 5px dashed rgba(255, 89, 0, 0.478);
+}
