@@ -17,6 +17,7 @@
 }
 body {
     margin: unset;
+    margin-bottom:15px;
     text-align:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,8 +65,17 @@ img {
     display: inline-block;
     margin-top: 18vh;
 }
-.links a {
+a {
     text-decoration: none;
+}
+.links.home a{
+    font-size: 20px;
+    width: 30vw;
+}
+.brownies .links, .tiramisu .links, .cupcakes .links{
+    margin-top:15px;
+}
+.links a {
     color: black;
     width: 50vw;
     margin: 30px;
@@ -79,6 +89,9 @@ img {
 ul {
     list-style: none;
     padding: unset;
+}
+ul li{
+    margin-top: 9px;
 }
 ol li{
     margin: 25px
