@@ -6,19 +6,19 @@
     background-image: url("https://img.freepik.com/free-photo/strawberry-pie-with-anise-flavour-piece-burlap_114579-28888.jpg?w=900&t=st=1690617927~exp=1690618527~hmac=7aa7f5ed5c5de98b82b32a4cff51136ea31a8be1752754181beaef91e11bf1b3");
     
 }
-.tiramisu{
+.tiramisu {
     background-image: url("https://static01.nyt.com/images/2017/04/05/dining/05COOKING-TIRAMISU1/05COOKING-TIRAMISU1-blog480.jpg?w=1024&q=75");
 }
-.brownies{
+.brownies {
     background-image: url("https://www.allrecipes.com/thmb/Ra8Y-yiDUNdWW2U5CzAgtT5b_90=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7255512-Guinness-brownies-ddmfs-Beauty-3x4-7886d2e9e6844d8b8b24fdde605ca11f.jpg");
 }
-.cupcakes{
+.cupcakes {
     background-image: url("https://www.allrecipes.com/thmb/bAcMKLoYBrO3azYvQwKc3_Bxy0I=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/157877-vanilla-cupcakes-ddmfs-4X3-0397-59653731be1d4769969698e427d7f5bc.jpg");
 }
 body {
     margin: unset;
-    margin-bottom:15px;
-    text-align:center;
+    margin-bottom: 15px;
+    text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -29,28 +29,28 @@ body {
 h1 {
     color: rgb(240, 85, 29);
 }
-.res, .wrapper{
-    color:white;
+.res, .wrapper {
+    color: white;
     background-color: rgba(0, 0, 0, 0.295);
 }
-h1, .links a:hover{
+h1, .links a:hover {
     box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.3);
 }
-.wrapper{
-    margin-top:20px;
-    font-weight:700;
-    font-size:22px;
+.wrapper {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 22px;
     padding: 5px 15vw
 }
-h1 ,.links a{
+h1 ,.links a {
     padding: 10px 0px;
 }
 h2, h1, .links a {
     font-family: monospace;
-    font-size:33px;
-    font-weight:1000;    
+    font-size: 33px;
+    font-weight: 1000;    
 }
-h2, .res{
+h2, .res {
     -webkit-text-stroke: 2px black;
 }
 
@@ -67,20 +67,21 @@ img {
 }
 a {
     text-decoration: none;
+    transition: all 0.2s;
 }
-.links.home a{
+.links.home a {
     font-size: 20px;
-    width: 30vw;
+    width: 30vw;  
 }
-.brownies .links, .tiramisu .links, .cupcakes .links{
-    margin-top:15px;
+.brownies .links, .tiramisu .links, .cupcakes .links {
+    margin-top: 15px;
 }
 .links a {
     color: black;
     width: 50vw;
     margin: 30px;
     padding: 15px 80px;
-    background-color: rgba(236, 235, 235, 0.595);
+    background-color: rgba(255, 255, 255, 0.384);
     border-radius: 50px;
     display: block;
 }
@@ -90,14 +91,14 @@ ul {
     list-style: none;
     padding: unset;
 }
-ul li{
+ul li {
     margin-top: 9px;
 }
-ol li{
+ol li {
     margin: 25px
 }
 
-p, ol{
+p, ol {
     background-color: rgba(0, 0, 0, 0.491);
     border-radius: 20px;
     padding: 10px 30px
