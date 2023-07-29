@@ -36,9 +36,10 @@ h1, .links a:hover{
     box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.3);
 }
 .wrapper{
+    margin-top:20px;
     font-weight:700;
     font-size:22px;
-    padding: 0px 15vw
+    padding: 5px 15vw
 }
 h1 ,.links a{
     padding: 10px 0px;
@@ -46,7 +47,10 @@ h1 ,.links a{
 h2, h1, .links a {
     font-family: monospace;
     font-size:33px;
-    font-weight:900;
+    font-weight:1000;    
+}
+h2, .res{
+    -webkit-text-stroke: 2px black;
 }
 
 /* images */
