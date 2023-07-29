@@ -1,24 +1,53 @@
+/* general */
 * {
     font-family: Helvetica, sans-serif
+}
+.index {
+    background-image: url("https://img.freepik.com/free-photo/strawberry-pie-with-anise-flavour-piece-burlap_114579-28888.jpg?w=900&t=st=1690617927~exp=1690618527~hmac=7aa7f5ed5c5de98b82b32a4cff51136ea31a8be1752754181beaef91e11bf1b3");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 body {
     margin: unset;
+    text-align:center;
+    
 }
 
+/* text */
 h1 {
-    text-align: center;
+    color: rgb(240, 85, 29);
+}
+h1, .links a:hover {
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.256);
+}
+
+h1 ,.links a{
     font-family: monospace;
     font-size: 30px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.256);
     font-weight: 1000;
-    color: rgb(240, 85, 29);
     padding: 10px 0px;
 }
 
-.image {
-    text-align: center; 
-}
+/* images */
 img {
     border: 5px dashed rgba(255, 89, 0, 0.478);
+}
+
+/* links */
+.links{
+    display: inline-block;
+    margin-top: 18vh;
+}
+.links a{
+    text-decoration: none;
+    color:black;
+    width:50vw;
+    margin: 30px;
+    padding: 15px 80px;
+    background-color: rgba(236, 235, 235, 0.595);
+    border-radius: 50px;
+    display: block;
 }
