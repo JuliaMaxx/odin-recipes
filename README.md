@@ -1,6 +1,6 @@
 # odin-recipes "Comfort Desserts"
 ## Toy recipe website for practice
-## Live preview: https://juliamaxy.github.io/odin-recipes/index.html
+## Live preview: https://juliamaxx.github.io/odin-recipes/index.html
 ##### All the recipes are taken from https://www.allrecipes.com/
 ### Description:
 The website consists of the home page and three pages with dessert recipes.
